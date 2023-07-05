@@ -5,7 +5,7 @@ const http = require('http');
 const socketio = require('socket.io');
 // const gameflow = require('./game_logic');
 
-const port = process.env.PORT || 9000;
+const port = 9000;
 
 const app = express();
 const server = http.createServer(app);
